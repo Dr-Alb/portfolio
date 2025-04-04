@@ -165,7 +165,7 @@ transition:0.5s;
 .tab-contents.active-tab{
     display:block;
 }
-/*..........services........*/
+/*..........interest........*/
 #services{
     padding: 30px 0;
 }
@@ -204,7 +204,7 @@ transition:0.5s;
     transform:translateY(-10px);
     cursor: pointer;
 }
-/*..........portfolio........*/
+/*..........projects........*/
 #portfolio{
     padding:50px 0;
 }
