@@ -380,13 +380,8 @@ margin-right:20px ;
 .D{
     color: white;
 }
- nav .menu{
-    width: 25px;
-    height: 20px;
-    padding-left: 0;
-   background-color: #fff;
-}
-nav .menu{
+ 
+nav .fa-solid{
     display: none;
 }
 /*........css for small screen....*/
@@ -401,7 +396,7 @@ nav .menu{
     .header-text h1{
         font-size: 30px;
     }
-     nav .menu{
+     nav .fa-solid{
         display: block;
         font-size: 25px;
     }
@@ -420,7 +415,7 @@ nav .menu{
         display: block;
         margin: 25px;
     }
-     nav ul .menu{
+     nav ul .fa-solid{
         position: absolute;
         top:25px;
         left:25px;
