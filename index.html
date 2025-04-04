@@ -3,193 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >
-    Personal portfolio
-    </title>
+    <meta name="description" content="Albert Sipoi's personal portfolio showcasing skills, projects, and contact information.">
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/c4253e24a8.js" creossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="header">
-            <div class="container">
-                <link rel="icons" href="/iconspics" type="image/x-icon">
-                
-                <nav>
-                    <img class="logo" src="portimages/logo.webp" alt="logo">
-                    <ul id="sidemenu">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <img class="menu" src="portimages/menu-of-three-lines.png" onclick="closemenu(),openmenu()">
-                        <i class="times icon"></i>
-                        </ul>
-                        
-                </nav>
-                <div class="header-text">
-                    <p>Web developer/Web designer</p>
-                    <h1>Hi, Iam <i>Albert</i> <br> Sipoi from
-                    <span class="k">K</span><span class="e">E</span><span class="n">N</span><span class="y">Y</span><span class="a">A<span></span></h1>
-                </div>
+    <script src="https://kit.fontawesome.com/c4253e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <link rel="icon" href="/iconspics" type="image/x-icon">
+            <nav>
+                <img class="logo" src="portimages/logo.webp" alt="Albert's Logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer / Web Designer</p>
+                <h1>Hi, I am <i>Albert</i> <br> Sipoi from
+                    <span class="k">K</span><span class="e">E</span><span class="n">N</span><span class="y">Y</span><span class="a">A</span>
+                </h1>
             </div>
         </div>
-        <!.........about..............>
-        <div id="about">
-            <div class="row">
-                <div class="about-col1"> 
-                    <img src="portimages/folio.jpg" alt="Albert">
-                </div>
-                <div class="about-col2">
-                    <h1 class="subtitle">About me</h1>
-                    <p>Albert is a foward thinking individual looking foward to dive into the world of web.<br>
-                        Studied at the MULTIMEDIA UNIVERSITY OF KENYA and graduated with a degree in BUSINESS INFORMATION TECHNOLOGY.<br>
-                        He is a self taught web developer and designer with a passion for creating beautiful and functional websites.<br>
-                        He is also a team player and a quick learner who is always looking for ways to improve his skills.
-                        He is also a lover of music and a great fan of the English premier league.
-                        He find joy in helping others and is always looking for ways to give back to the community.<br>
-                        He finds fun in solving realworld problems using technology.<br>
-                        <hr>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
-                            <p class="tab-links"onclick="opentab('Experience')">Experience</p>
-                            <p class="tab-links"onclick="opentab('Education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="Skills">
-                            <ul>
-                                <li><span>UI/UX</span><br>Designing Web</li>
-                                <li><span>WEB DEVELOPMENT</span><br>Web App Development</li>
-                                <li><span>APP DEVELOPMENT</span><br>Building Android Apps</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="Experience">
-                            <ul>
-                                <li><span>2027-current</span>Sipoi Techs ltd<br></li>
-                                <li><span>2026-2027</span>MGD ltd as System Manager<br></li>
-                                <li><span>2025-2026</span>Soralo N.G.O<br></li>
-                                <li><span>2020-2021</span>Team leader The vapour Tech Group<br></li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="Education">
-                            <ul>
-                                <li><span>2023</span>Bachelor of Business IT Multimedia university of Kenya<br></li>
-                                <li><span>2025</span>Fullstack we dev at PLP Academy<br></li>
-                                <li><span>2026</span>Self practice<br></li>
-                            </ul>
-                        </div>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!.........services..............>
-        <div id="services">
-            <div class="container">
-                    <h1 class="subtitle"> My Services</h1>
-                    <div class="services-col">
-                        <div>
-                            <i class="fa-solid fa-code"></i>
-                            <h2>Web Design</h2>
-                            <p>Designing beautiful and responsive websites that look great on any device</p>
-                            <a href="#">Learn more</a>
-                        </div>
-                        <div>
-                            <i class="fa-brands fa-sketch"></i>
-                            <h2>App Design</h2>
-                            <p>Building Android apps that are user friendly and easy to use</p>
-                            <a href="#"> Learn more</a>
-                        </div>
-                        <div>
-                            <i class="fas fa-crop-alt "></i>
-                            <h2>UI/UX Design</h2>
-                            <p>Creating user interfaces that are easy to use and provide a great user experience</p>
-                            </p>
-                            <a href="#">Learn more</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <!.......portfolio......>
-            <div id="portfolio">
-                <div class="container">
-                    <h1 class="subtitle">My work</h1>
-                    <div class="worklist">
-                        <div class="work">
-                          <img src="portimages/daniel-korpai-aUmq85-2V7I-unsplash.jpg">
-                           <div class="layer">
-                            <h3>Social Media App</h3>
-                            <p>The app connects you to the talented people around the world.
-                                download on play store</p>
-                            <a href="#"></a>
-                        </div>                           
-                        </div>
-                        <div class="work">                    
-                            <img src="portimages/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg">  
-                            <div class="layer">
-                                <h3>Sidai academy page</h3>
-                                <p>The web page reveals the amazing job by the school and the fun in it.
-                                visit it on google</p>
-                                <a href="#"></a>
-                            </div>               
-                    </div>
-                        <div class="work">
-                            <img src="portimages/representations-user-experience-interface-design.jpg">
-                            <div class="layer">
-                                <h3>The UI and UX of the website</h3>
-                                <p>The page is user friendly and so apealing designed in the best ways.
-                                see it yourself you gonna like it</p>
-                                    <a href="#"></a>
-                            </div> 
-                        </div>
-                    </div>
-                    <a href="#" class="btn">See more</a>
-                </div>
-            </div>
-            <!.. .....contact..... ..>
-<div id="contact">
-    <div class="container">
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
         <div class="row">
-            <div class="contact-left">
-                <h1 class="subtitle">Contact me</h1>
-                <p><i class=""></i>albsipoi1564@gmail.com</p>
-                <p><i class=""></i>0703126498</p>
-                <div class="soial-icons"><!....eka icons......>
-                    <a href="http://www.facebook.com/alb sipoi"><i class=""> </i></a>
-                    <a href="http://www.instagram.com/dactarii1564"><i class=""> </i></a>
-                    <a href="http://www.git.com/dr-alb"><i class=""> </i></a>
-                    <a href="http://www.linkedin.com/dactarii"><i class=""> </i></a>
-                </div>
-                <a href="projectdocs/Download-kasneb-Fee-structure-Effective-1-July-2021.pdf" download class="btn btn2">Download CV</a>
+            <div class="about-col1">
+                <img src="portimages/folio.jpg" alt="Albert's Photo">
             </div>
-            <div class="contact-right">
-                <form>
-                    <input type="text" name="Name" placeholder="Your name"required>
-                    <input type="email" name="email" placeholder="Your email" required>
-                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
+            <div class="about-col2">
+                <h1 class="subtitle">About Me</h1>
+                <p>
+                    Albert is a forward-thinking individual looking to dive into the world of web development.<br>
+                    He graduated from the MULTIMEDIA UNIVERSITY OF KENYA with a degree in BUSINESS INFORMATION TECHNOLOGY.<br>
+                    A self-taught web developer and designer, Albert is passionate about creating beautiful and functional websites.<br>
+                    He is a team player, quick learner, and a lover of music and the English Premier League.<br>
+                    Albert enjoys solving real-world problems using technology and giving back to the community.
+                </p>
+                <hr>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                        <li><span>WEB DEVELOPMENT</span><br>Web App Development</li>
+                        <li><span>APP DEVELOPMENT</span><br>Building Android Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2027-current</span> Sipoi Techs Ltd</li>
+                        <li><span>2026-2027</span> MGD Ltd as System Manager</li>
+                        <li><span>2025-2026</span> Soralo N.G.O</li>
+                        <li><span>2020-2021</span> Team Leader, The Vapour Tech Group</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023</span> Bachelor of Business IT, Multimedia University of Kenya</li>
+                        <li><span>2025</span> Fullstack Web Development, PLP Academy</li>
+                        <li><span>2026</span> Self Practice</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <div class="copyright">
-<p>copyright@Dr.Alb.Self<i class="iconapa">made legacy</i></p>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-col">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing beautiful and responsive websites that look great on any device.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>App Design</h2>
+                    <p>Building Android apps that are user-friendly and easy to use.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating user interfaces that are easy to use and provide a great user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-var tabcontents = document.getElementsByClassName("tab-contents");
 
-function opentab(tabname) {
-    for (let tablink of tablinks) {
-        tablink.classList.remove("active-link");
-    }
-    for (let tabcontent of tabcontents) {
-        tabcontent.classList.remove("active-tab");
-    }
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="portimages/daniel-korpai-aUmq85-2V7I-unsplash.jpg" alt="Social Media App">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to talented people around the world. Download on Play Store.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portimages/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg" alt="Sidai Academy Page">
+                    <div class="layer">
+                        <h3>Sidai Academy Page</h3>
+                        <p>The web page showcases the amazing work and fun at the school. Visit it on Google.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portimages/representations-user-experience-interface-design.jpg" alt="UI/UX Design">
+                    <div class="layer">
+                        <h3>UI/UX Design</h3>
+                        <p>The page is user-friendly and appealing, designed in the best ways. See it yourself!</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
 
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-}
-</script>
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> albsipoi1564@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0703126498</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/albsipoi" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/dactarii1564" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/dr-alb" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dactarii" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="projectdocs/Download-kasneb-Fee-structure-Effective-1-July-2021.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Dr. Alb. Self-Made Legacy</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/c4253e24a8.js" crossorigin="anonymous"></script>
 <script>
     var sidemenu=document.getElementById("sidemenu")
     function openmenu(){
