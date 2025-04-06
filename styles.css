@@ -434,3 +434,26 @@ font-size: 40px;
         font-size: 14px;
     }
 }
+/*........css for medium screen....*/
+@media only screen and (max-width:900px){
+    .header-text{
+        margin-top: 50%;
+    }
+    .header-text h1{
+        font-size: 40px;
+    }
+    .about-col1,.about-col2{
+        flex-basis: 100%;
+    }
+    .about-col1{
+        margin-bottom: 30px;
+    }
+    .about-col2{
+        font-size: 14px;
+    }
+}
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
