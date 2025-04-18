@@ -8,6 +8,7 @@
     <link rel="icon" href="portimages/logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -28,9 +29,8 @@
             </nav>
             <div class="header-text">
                 <p><i class="fa-solid fa-code"></i> Web Developer / Web Designer</p>
-                <h1>Hi, I am <i>Albert</i> <br> Sipoi from
-                    <span class="k">K</span><span class="e">E</span><span class="n">N</span><span class="y">Y</span><span class="a">A</span>
-                </h1>
+                
+                <h1>Hi, I am <i>Albert</i> <br> <span id="typed"></span></h1>
             </div>
         </div>
     </div>
@@ -91,19 +91,19 @@
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
                     <p>Designing beautiful and responsive websites that look great on any device.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i> Learn more</a>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i>Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-android"></i>
                     <h2>App Design</h2>
                     <p>Building Android apps that are user-friendly and easy to use.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i> Learn more</a>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i>Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-paint-brush"></i>
                     <h2>UI/UX Design</h2>
                     <p>Creating user interfaces that are easy to use and provide a great user experience.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i> Learn more</a>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i>See More </a>
                 </div>
             </div>
         </div>
@@ -118,7 +118,7 @@
                 <div class="layer">
                     <h3>Social Media App</h3>
                     <p>The app connects you to talented people around the world. Download on Play Store.</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i> </a>
+                    <a href="#"><i class="fas fa-external-link-alt" ></i> </a>
                 </div>
             </div>
             <div class="work">
@@ -126,7 +126,7 @@
                 <div class="layer">
                     <h3>Sidai Academy Page</h3>
                     <p>The web page showcases the amazing work and fun at the school. Visit it on Google.</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i> </a>
+                    <a href="#"><i class="fas fa-external-link-alt" ></i> </a>
                 </div>
             </div>
             <div class="work">
@@ -134,11 +134,11 @@
                 <div class="layer">
                     <h3>UI/UX Design</h3>
                     <p>The page is user-friendly and appealing, designed in the best ways. See it yourself!</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i> </a>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See more</a>
+<a href="#" class="btn" onclick="openModal()">See more</a>
     </div>
 </div>
     <!-- Contact Section -->
@@ -172,7 +172,6 @@
             <p>&copy; 2025 Dr. Alb. Self-Made Legacy</p>
         </div>
     </div>
-
     <!-- JavaScript -->
     <script>
 
@@ -230,6 +229,12 @@
                 }, 5000);
             })
         })
+        var typed = new Typed("#typed", {
+            strings: [ "from kenya","Web Developer", "Web Designer","AI&machine", "Problem Solver", "Tech Enthusiast",],
+            typeSpeed: 50,
+            backSpeed: 25,
+            loop: true
+        });
       
       </script>
 </body>

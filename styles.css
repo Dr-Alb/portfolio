@@ -384,6 +384,16 @@ margin-right:20px ;
 nav .fa-solid{
     display: none;
 }
+
+#typed.tab-links::after{
+    width: 100%;
+}
+#typed{
+    color: #12f142;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 0;
+}
 /*........css for small screen....*/
 @media only screen and (max-width:600px){
     #header{
@@ -433,27 +443,4 @@ font-size: 40px;
     .about-col2{
         font-size: 14px;
     }
-}
-/*........css for medium screen....*/
-@media only screen and (max-width:900px){
-    .header-text{
-        margin-top: 50%;
-    }
-    .header-text h1{
-        font-size: 40px;
-    }
-    .about-col1,.about-col2{
-        flex-basis: 100%;
-    }
-    .about-col1{
-        margin-bottom: 30px;
-    }
-    .about-col2{
-        font-size: 14px;
-    }
-}
-#msg{
-    color: #61b752;
-    margin-top: -40px;
-    display: block;
 }
